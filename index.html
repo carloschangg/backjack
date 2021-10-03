@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/normalize.css">
+    <link rel="stylesheet" href="/assets/stiles.css">
+    <title>juego de Blackjack</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <h1>Juego de Blackjack</h1>
+            <button class="new-game">Comenzar</button>
+            <button class="ask-card">Pedir</button>
+            <button class="stop">Detener</button>
+       
+        </div>
+        <div class="players">
+            <div class="player">
+                <p>Jugador 1</p>
+                <p> puntos:<span>0</span></p>
+                <div id="jugador-cartas">
+                    <!-- <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card"> -->
+                </div>
+            </div>
+
+            <div class="computer">
+                <p>Computadora</p>
+                <p> puntos:<span>0</span></p>
+                <div id="computer-cartas">
+                    <!-- <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card">
+                    <img src="/cartas/10D.png" alt="carta" class="card"> -->
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <script src="/src/underscore-min.js"></script>
+    <script src="/src/index.js" ></script>
+</body>
+</html>

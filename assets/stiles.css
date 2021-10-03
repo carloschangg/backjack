@@ -1,0 +1,113 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(16, 67, 16);
+    max-height: 735px;
+    overflow: hidden;
+}
+
+
+img{
+    max-width: 100%;
+}
+.container{
+    height: 735px;
+}
+.header{ 
+    text-align: center;
+     position: sticky;
+     top: 0;
+}
+.header h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.header button {
+   margin: 10px;
+}
+
+
+.new-game{
+    background-color: rgb(7, 7, 131);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.ask-card{
+    background-color: rgb(7, 7, 131);
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.stop{
+    background-color: rgb(148, 17, 17);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.new-game:hover, .ask-card:hover { 
+    background-color: rgba(7, 7, 131, 0.672);
+  
+
+}
+ .stop:hover { 
+    background-color:  rgba(148, 17, 17, 0.611);
+   
+}
+
+.player p, .computer p{
+   font-size: 22px;
+   padding-left: 20px;
+   color: white;
+}
+
+.card{
+    width: 110px;
+    position: relative;
+    left: 150px ;
+    margin-left: -60px;
+}
+
+.players{
+    display: flex;
+    
+
+}
+
+.player{
+    flex: 0 0 50%;
+}
+
+.computer{
+    flex: 0 0 50%;
+}
